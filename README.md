@@ -7,7 +7,7 @@
  * @FilePath: \umi-admin\README.md
  -->
 # 商家管理系统
-
+预览地址: http://dingdong-admin.nodebook.top/
 ## 初始化
 ```
 cnpm install
