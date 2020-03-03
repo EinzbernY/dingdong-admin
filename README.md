@@ -8,6 +8,7 @@
  -->
 # 商家管理系统
 预览地址: http://dingdong-admin.nodebook.top/
+公共接口配置:  请访问 src/models/UserRedux.js 配置公共接口
 ## 初始化
 ```
 cnpm install
