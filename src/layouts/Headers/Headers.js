@@ -114,12 +114,20 @@ class Headers extends Component {
                       })}
                   </Breadcrumb>
                 </div>
-                <Dropdown overlay={menu}>
-
-                    <span style={{cursor: 'pointer'}}>
-                        <Avatar shape="square" size="small" icon="user" src={this.state.userList.avatar} /> {this.state.userList.nickname} <Icon type="down" />
-                    </span>
-                </Dropdown>
+               
+                <div>
+                  <a href='https://github.com/cgq001/dingdong-admin' alt="" style={{color: '#666666'}} target='_blank'>
+                    <Icon type="github" style={{marginRight: '20px',fontSize: "22px"}} />
+                  </a>
+                  
+                  <Dropdown overlay={menu}>
+                      
+                      <span style={{cursor: 'pointer'}}>
+                          <Avatar shape="square" size="small" icon="user" src={this.state.userList.avatar} /> {this.state.userList.nickname} <Icon type="down" />
+                      </span>
+                  </Dropdown>
+                </div>
+               
             </div>
         )
     }

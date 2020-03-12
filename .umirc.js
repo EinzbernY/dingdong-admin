@@ -67,7 +67,7 @@ export default {
   ],
   "proxy": {
     "/api": {
-      "target": "192.168.31.26:5005/admin/",  //http://192.168.188.200:5005/admin/
+      "target": "http://dingdong-api.nodebook.top/admin/",  //http://192.168.188.200:5005/admin/
       "changeOrigin": true,
       "pathRewrite": { "^/api" : "" }
     }
