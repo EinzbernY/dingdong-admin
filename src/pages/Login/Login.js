@@ -64,7 +64,7 @@ export default class Login extends Component {
                 {/* 底部 */}
                 <div className={styles.foots}>
                     Copyright  2019~2020 技术支持: React、umi、dva 
-                    <a target="_blank" rel="noopener noreferrer" href='https://www.baidu.com/'>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/cgq001/dingdong-admin'>
                         <Icon className={styles.gethub} type="github" />
                     </a>
                 </div>
