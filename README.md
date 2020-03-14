@@ -14,6 +14,12 @@
 
 # 前台展示(移动端)
 预览地址: http://dingdong.nodebook.top/
+
+接口源码: https://github.com/cgq001/dingdong-node
+
+接口文档: http://www.docway.net/project/1RegDIiCClF/1RegN4RuBJA
+
+
 ## 初始化
 ```
 cnpm install
